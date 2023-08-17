@@ -4,13 +4,12 @@ version: 1.0.0
 publish_to: none
 
 environment:
-  sdk: ^3.1.0-189.0.dev
+  sdk: ^3.1.0
 
 dependencies:
   http: ^1.0.0
   logging: ^1.2.0
-  nyxx:
-    path: ../nyxx/nyxx
+  nyxx: ^6.0.0-dev.0
   fuzzy: ^0.4.0-nullsafety.0
 
 dev_dependencies:
